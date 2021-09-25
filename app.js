@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const database = require('./database/eKnowledge_DB');
+const database = require('./database/OnlineShiksha_DB');
 const users_route = require('./routes/users_route');
 const course_route = require('./routes/course_route');
 const contact_route = require('./routes/contact');
